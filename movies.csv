@@ -1,101 +1,11 @@
-Title,Year,Genre,IMDb Rating
-The Shawshank Redemption,1994,Drama,9.3
-The Godfather,1972,"Crime, Drama",9.2
-The Dark Knight,2008,"Action, Crime, Drama",9.0
-The Godfather Part II,1974,"Crime, Drama",9.0
-12 Angry Men,1957,Drama,9.0
-Movie 6,2006,Drama,7.0
-Movie 7,2007,Drama,7.5
-Movie 8,2008,Drama,8.0
-Movie 9,2009,Drama,7.0
-Movie 10,2010,Drama,7.5
-Movie 11,2011,Drama,8.0
-Movie 12,2012,Drama,7.0
-Movie 13,2013,Drama,7.5
-Movie 14,2014,Drama,8.0
-Movie 15,2015,Drama,7.0
-Movie 16,2016,Drama,7.5
-Movie 17,2017,Drama,8.0
-Movie 18,2018,Drama,7.0
-Movie 19,2019,Drama,7.5
-Movie 20,2000,Drama,8.0
-Movie 21,2001,Drama,7.0
-Movie 22,2002,Drama,7.5
-Movie 23,2003,Drama,8.0
-Movie 24,2004,Drama,7.0
-Movie 25,2005,Drama,7.5
-Movie 26,2006,Drama,8.0
-Movie 27,2007,Drama,7.0
-Movie 28,2008,Drama,7.5
-Movie 29,2009,Drama,8.0
-Movie 30,2010,Drama,7.0
-Movie 31,2011,Drama,7.5
-Movie 32,2012,Drama,8.0
-Movie 33,2013,Drama,7.0
-Movie 34,2014,Drama,7.5
-Movie 35,2015,Drama,8.0
-Movie 36,2016,Drama,7.0
-Movie 37,2017,Drama,7.5
-Movie 38,2018,Drama,8.0
-Movie 39,2019,Drama,7.0
-Movie 40,2000,Drama,7.5
-Movie 41,2001,Drama,8.0
-Movie 42,2002,Drama,7.0
-Movie 43,2003,Drama,7.5
-Movie 44,2004,Drama,8.0
-Movie 45,2005,Drama,7.0
-Movie 46,2006,Drama,7.5
-Movie 47,2007,Drama,8.0
-Movie 48,2008,Drama,7.0
-Movie 49,2009,Drama,7.5
-Movie 50,2010,Drama,8.0
-Movie 51,2011,Drama,7.0
-Movie 52,2012,Drama,7.5
-Movie 53,2013,Drama,8.0
-Movie 54,2014,Drama,7.0
-Movie 55,2015,Drama,7.5
-Movie 56,2016,Drama,8.0
-Movie 57,2017,Drama,7.0
-Movie 58,2018,Drama,7.5
-Movie 59,2019,Drama,8.0
-Movie 60,2000,Drama,7.0
-Movie 61,2001,Drama,7.5
-Movie 62,2002,Drama,8.0
-Movie 63,2003,Drama,7.0
-Movie 64,2004,Drama,7.5
-Movie 65,2005,Drama,8.0
-Movie 66,2006,Drama,7.0
-Movie 67,2007,Drama,7.5
-Movie 68,2008,Drama,8.0
-Movie 69,2009,Drama,7.0
-Movie 70,2010,Drama,7.5
-Movie 71,2011,Drama,8.0
-Movie 72,2012,Drama,7.0
-Movie 73,2013,Drama,7.5
-Movie 74,2014,Drama,8.0
-Movie 75,2015,Drama,7.0
-Movie 76,2016,Drama,7.5
-Movie 77,2017,Drama,8.0
-Movie 78,2018,Drama,7.0
-Movie 79,2019,Drama,7.5
-Movie 80,2000,Drama,8.0
-Movie 81,2001,Drama,7.0
-Movie 82,2002,Drama,7.5
-Movie 83,2003,Drama,8.0
-Movie 84,2004,Drama,7.0
-Movie 85,2005,Drama,7.5
-Movie 86,2006,Drama,8.0
-Movie 87,2007,Drama,7.0
-Movie 88,2008,Drama,7.5
-Movie 89,2009,Drama,8.0
-Movie 90,2010,Drama,7.0
-Movie 91,2011,Drama,7.5
-Movie 92,2012,Drama,8.0
-Movie 93,2013,Drama,7.0
-Movie 94,2014,Drama,7.5
-Movie 95,2015,Drama,8.0
-Movie 96,2016,Drama,7.0
-Movie 97,2017,Drama,7.5
-Movie 98,2018,Drama,8.0
-Movie 99,2019,Drama,7.0
-Movie 100,2000,Drama,7.5
+Title,Year,Genre,Rating,Description
+The Shawshank Redemption,1994,Drama,9.3,A story of hope and friendship in a prison setting.
+The Godfather,1972,"Crime, Drama",9.2,The saga of a crime family and their rise to power.
+The Dark Knight,2008,"Action, Crime, Drama",9.0,A gritty tale of a vigilante fighting crime in Gotham City.
+Schindler's List,1993,"Biography, Drama, History",9.0,A harrowing depiction of the Holocaust and a man's redemption.
+Pulp Fiction,1994,"Crime, Drama",8.9,Interwoven stories of crime and redemption in Los Angeles.
+Forrest Gump,1994,"Drama, Romance",8.8,The life journey of a simple man with a big heart.
+Inception,2010,"Action, Adventure, Sci-Fi",8.8,A thrilling exploration of dreams within dreams.
+Fight Club,1999,Drama,8.8,"A tale of identity, consumerism, and rebellion."
+The Matrix,1999,"Action, Sci-Fi",8.7,A computer hacker discovers a dystopian reality.
+Goodfellas,1990,"Biography, Crime, Drama",8.7,The rise and fall of a mob associate.
