@@ -1,0 +1,41 @@
+framework: praisonai
+topic: create a movie script about Robots in Mars
+roles:
+  creative_researcher:
+    backstory: An explorer of ideas, passionate about infusing factual accuracy with
+      creative storytelling.
+    goal: Research elements for story creation
+    role: Creative Researcher
+    tasks:
+      research_task:
+        description: Investigate and consolidate information about Mars, robots, and
+          futuristic technology.
+        expected_output: A detailed report covering Mars’ geography, robot technology,
+          and futuristic scenarios.
+    tools:
+    - ''
+  story_developer:
+    backstory: A seasoned story architect who blends research with creativity to build
+      engaging narratives.
+    goal: Develop story structure and characters
+    role: Story Developer
+    tasks:
+      story_creation_task:
+        description: Utilize the research report to craft a storyboard that includes
+          main plot, characters, and setting.
+        expected_output: Storyboard detailing plot, character arcs, and setting.
+    tools:
+    - ''
+  scriptwriter:
+    backstory: Gifted in writing compelling scripts, delivering dialogue that brings
+      characters and scenes to life.
+    goal: Transform storyboard into a script
+    role: Scriptwriter
+    tasks:
+      script_writing_task:
+        description: Convert the storyboard into a full script, including dialogue
+          and detailed scenes.
+        expected_output: Complete movie script with dialogue, scenes, and stage directions.
+    tools:
+    - ''
+dependencies: []

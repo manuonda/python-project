@@ -1,0 +1,31 @@
+-e Operating System: Linux
+Kernel Version: 6.8.0-50-generic
+
+Top Processes:
+USER	PID	%CPU	%MEM	COMMAND
+manuonda	501911	67.0	1.1	/snap/firefox/5437/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37169 -prefMapHandle 1 -prefMapSize 260981 -jsInitHandle 2 -jsInitLen 234660 -parentBuildID 20241210134022 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {8d3d2665-215a-41f6-8384-b41c2666e6ed} -parentPid 12845 -crashReporter 6 -greomni /snap/firefox/5437/usr/lib/firefox/omni.ja -appomni /snap/firefox/5437/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5437/usr/lib/firefox/browser 269 tab
+manuonda	370190	16.1	6.5	/usr/lib/jvm/java-8-openjdk-amd64/bin/java -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:37727 -javaagent:/home/manuonda/app/eclipse/configuration/org.eclipse.osgi/413/0/.cp/lib/javaagent-shaded.jar -Dcatalina.base=/home/manuonda/projects/most/geins_ypf/web/.metadata/.plugins/org.eclipse.wst.server.core/tmp0 -Dcatalina.home=/home/manuonda/app/apache-tomcat-8.5.61 -Dwtp.deploy=/home/manuonda/projects/most/geins_ypf/web/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps -Djava.endorsed.dirs=/home/manuonda/app/apache-tomcat-8.5.61/endorsed -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/home/manuonda/app/apache-tomcat-8.5.61/bin/bootstrap.jar:/home/manuonda/app/apache-tomcat-8.5.61/bin/tomcat-juli.jar:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar org.apache.catalina.startup.Bootstrap start
+manuonda	12845	12.3	2.3	/snap/firefox/5437/usr/lib/firefox/firefox
+manuonda	564085	10.5	1.0	/usr/share/windsurf/windsurf --type=renderer --crashpad-handler-pid=564024 --enable-crash-reporter=0ba5a4d5-3013-4c1b-8a00-1af26t22a65b,no_channel --user-data-dir=/home/manuonda/.config/Windsurf --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/windsurf/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration, --lang=es-419 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1735474984094964 --launch-time-ticks=25757517430 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10235041923043807927,14630130573719415405,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:7bf01593-44d1-43fe-8c65-7d41bc20a453
+manuonda	607774	9.2	0.1	python main.py
+
+Disk Usage (Directories over 10GB):
+281G	/
+235G	/home
+18G	/usr
+13G	/var
+12G	/snap
+
+System Load:
+Load Average: 5.47, 4.96, 4.27
+
+Memory Usage:
+Total: 31Gi, Used: 18Gi, Free: 2.7Gi, Shared: 2.4Gi, Buff/cache: 9.6Gi, Available: 9.6Gi
+
+Network Connections:
+Netid	State	Local Address:Port	Peer Address:Port
+udp	UNCONN	127.0.0.53%lo:53	0.0.0.0:*
+udp	UNCONN	0.0.0.0:50001	0.0.0.0:*
+udp	UNCONN	0.0.0.0:37526	0.0.0.0:*
+udp	UNCONN	0.0.0.0:4789	0.0.0.0:*
+udp	UNCONN	224.0.0.251:5353	0.0.0.0:*
