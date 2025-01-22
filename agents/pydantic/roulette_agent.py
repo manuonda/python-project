@@ -11,10 +11,10 @@ roulette_agent = Agent(
     )
 )
 
-@roulette_agent.tool(retries=3a)
+@roulette_agent.tool
 async def roulette_wheel(ctx: RunContext[int], square :int ) -> str : 
     """ check if the square is a winner """
-    return 'winner' if square == ctx.value else 'loser'
+    return 'winner' if square == ctx.deps else 'loser'
 
 #Run the agent 
 success_number = 19
