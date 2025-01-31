@@ -7,3 +7,5 @@ agents/langraph/tutorial/.langgraph_api/store.pckl
 agents/langraph/tutorial/.langgraph_api/store.vectors.pckl
 
 agents/langraph/tutorial/app/__pycache__/
+
+.env

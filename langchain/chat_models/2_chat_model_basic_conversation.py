@@ -18,9 +18,19 @@ model = ChatOpenAI(model="gpt-4o")
 # representa la entrada del usuario. 
 # Es lo que el usuario escribe o dice al modelo de lenguaje.
 
+
+# AIMessage: Este tipo de mensaje representa la respuesta generada por el modelo de lenguaje. 
+# Es la salida del modelo basada en los mensajes del sistema y del usuario proporcionados.
 # PromptMessage: Este tipo de mensaje es una combinación de mensajes del sistema y mensajes humanos que se utilizan para generar una respuesta del modelo de lenguaje. Es el prompt completo que se envía al modelo para obtener una respuesta. 
 messages= [
-    SystemMessage(content="Solve the following  ")
+    SystemMessage(content="Solve the following math problems "),
+    HumanMessage(content="What is 2+2?"),
+    AIMessage(content="81 divided by 9 is 9."),
+    HumanMessage(content="What is 2*2?"),
 ]
+
+#Invoke the model with messages 
+response = model.invoke(messages)
+print(f"Answer from AI:  {response.content}")
 
 
