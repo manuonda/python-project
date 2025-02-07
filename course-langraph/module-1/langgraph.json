@@ -1,0 +1,8 @@
+{
+    "dependencies":["./"],
+    "env":"./env",
+    "graphs":{
+        "simple_graph":"./01-simple_graph.py:graph"
+    },
+    "python_version": "3.11"
+}
