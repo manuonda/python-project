@@ -2,7 +2,8 @@
     "dependencies":["./"],
     "env":"./env",
     "graphs":{
-        "simple_graph":"./01-simple_graph.py:graph"
+        "simple_graph":"./simple_graph.py:graph",
+        "route_graph":"./router.py:graph"
     },
     "python_version": "3.11"
 }
