@@ -1,16 +1,15 @@
-from langchain_core.messages import AIMessage, SystemMessage
+from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
-from dotenv import load_dotenv
 
-#langchain
-from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
-
-#grapsh
-from langgraph.graph import MessagesState, START, END , StateGraph
+#graph 
+from langgraph.graph import  START, END, StateGraph , MessagesState
 from langgraph.prebuilt import tools_condition
 from langgraph.prebuilt import ToolNode
 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 #load environment
 load_dotenv()
@@ -55,6 +54,7 @@ llm = ChatOpenAI(model="gpt-4o")
 #bind tools
 llm_with_tools = llm.bind_tools(tools)
 
+
 #System message
 sys_msg = SystemMessage(content="You are a helpul assistant tasked with performing aritmetic on a set inputs")
 
@@ -62,7 +62,6 @@ sys_msg = SystemMessage(content="You are a helpul assistant tasked with performi
 #define node
 def assitant(state:MessagesState):
     return {"messages": [llm_with_tools.invoke( [sys_msg] + state["messages"])]}
-
 
 #define Graph 
 builder = StateGraph(MessagesState)
@@ -78,15 +77,28 @@ builder.add_conditional_edges(
     tools_condition
 )
 builder.add_edge("tools", "assistant")
-graph =  builder.compile()
 
+# memory 
+from langgraph.checkpoint.memory import MemorySaver
+memory = MemorySaver()
+react_graph_memory = builder.compile(checkpointer= memory)
 
-# call graph and invoke 
-messages = HumanMessage(content="Add 3 and 4. Multiply the outpu by 2. Divide the output by 5")
-messages = graph.invoke({"messages": messages})
+# When we use memory, we need to specify a thread_id.
+#This thread_id will store our collection of graph states.
 
-print(messages)
-print("-----------------------")
+#specify a thread
+config = {"configurable": {"thread_id":"1"}}
 
+#specify an input 
+messages = [HumanMessage(content="Add 3 and 4")]
+
+#Run 
+messages = react_graph_memory.invoke({"messages":messages},config)
+for m in messages['messages']:
+   m.pretty_print()
+
+messages = [HumanMessage(content="Multiply that by 2.")]
+messages = react_graph_memory.invoke({"messages": messages}, config)
 for m in messages['messages']:
     m.pretty_print()
+ 

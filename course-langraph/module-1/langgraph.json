@@ -3,7 +3,8 @@
     "env":"./env",
     "graphs":{
         "simple_graph":"./simple_graph.py:graph",
-        "route_graph":"./router.py:graph"
+        "route_graph":"./router.py:graph",
+        "agent_graph":"./agent.py:graph"
     },
     "python_version": "3.11"
 }
