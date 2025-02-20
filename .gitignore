@@ -18,3 +18,11 @@ course-langraph/module-1/.langgraph_api/store.vectors.pckl
 course-langraph/module-1/__pycache__/01-simple_graph.cpython-312.pyc
 course-langraph/module-1/__pycache__/router.cpython-312.pyc
 course-langraph/module-1/__pycache__/simple_graph.cpython-312.pyc
+course-langraph/module-2/.langgraph_api/.langgraph_checkpoint.1.pckl
+course-langraph/module-2/.langgraph_api/.langgraph_checkpoint.2.pckl
+course-langraph/module-2/.langgraph_api/.langgraph_ops.pckl
+course-langraph/module-2/.langgraph_api/.langgraph_retry_counter.pckl
+course-langraph/module-2/.langgraph_api/store.pckl
+course-langraph/module-2/.langgraph_api/store.vectors.pckl
+course-langraph/module-2/__pycache__/state_reducers.cpython-312.pyc
+course-langraph/module-2/__pycache__/state_schema.cpython-312.pyc
