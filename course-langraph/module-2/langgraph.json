@@ -1,8 +1,0 @@
-{
-    "dependencies":["./"],
-    "env":"./env",
-    "graphs":{
-        "state_reducers_graph":"./state_reducers.py:graph"
-    },
-    "python_version": "3.11"
-}

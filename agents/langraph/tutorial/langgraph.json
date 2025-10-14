@@ -1,7 +1,0 @@
-{
-    "dependencies":["./pyproject.toml"],
-    "graphs":{
-        "nicobot": "app/agents.py:graph"
-    },
-    "python_verison": "3.11"
-}
