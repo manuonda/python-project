@@ -35,10 +35,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "boto3" },
+    { name = "botocore" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "boto3", specifier = ">=1.41.4" }]
+requires-dist = [
+    { name = "boto3", specifier = ">=1.41.4" },
+    { name = "botocore", specifier = ">=1.41.4" },
+]
 
 [[package]]
 name = "jmespath"

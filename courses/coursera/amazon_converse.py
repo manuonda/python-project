@@ -2,6 +2,14 @@ import boto3
 import json
 from botocore.exceptions import ClientError
 
+
+#Es una capa de traducción universal. 
+# Usas el mismo formato de mensajes para todos los modelos.
+#Lo bueno: Puedes cambiar de amazon.titan a anthropic.claude solo cambiando el modelId, 
+# sin tocar el resto del código.
+#Lo bueno: Soporta Tool Use (uso de herramientas) y Guardrails de forma nativa y estandarizada.
+# Lo bueno: Maneja el historial de chat (messages=[...]) de forma estructurada.
+
 # Set the AWS Region
 region = "us-east-1"
 
